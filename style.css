@@ -1,0 +1,29 @@
+body
+{
+    background: #56bc8a;
+}
+div
+{
+
+    margin: 0;
+    padding:0;
+    border: 0;
+}
+.graphic
+{
+    opacity: 1;
+    transform: scale(1);
+    transition: opacity .5s cubic-bezier(.165,.84,.44,1),transform .5s cubic-bezier(.165,.84,.44,1);
+    transition-property: opacity, transform;
+    transition-duration: 0.5s, 0.5s;
+    transition-timing-function: cubic-bezier(0.165, 0.84, 0.44, 1), cubic-bezier(0.165, 0.84, 0.44, 1);
+    transition-delay: initial;
+    z-index: 99;
+}
+.section
+{
+    vertical-align: middle;
+    width: 100%;
+    text-align: center;
+    z-index: 99;
+}
